@@ -1,0 +1,21 @@
+{
+    "name": "Sage Video Downloader",
+    "short_name": "SVD",
+    "description": "Download videos from across the Web.",
+    "icons": [
+      {
+        "src": "https://exmaple.com/app/assets/img/32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "src": "https://exmaple.com/app/assets/img/512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "https://exmaple.com/",
+    "display": "fullscreen",
+    "theme_color": "#1e8d4c",
+    "background_color": "#333"
+  }

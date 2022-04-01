@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #242424;
+    font-family: Nunito, sans-serif;
+    font-size: 1.2rem;
+    color: whitesmoke
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #333;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #39df7e;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #4eb97b;
+}
+
+a {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white
+}
+
+form {
+    width: 70%;
+    margin: auto;
+}
+
+label {
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+label:first-of-type {
+    margin-top: 0;
+}
+
+label {
+    font-size: 2.5rem;
+}
+
+span {
+    margin-bottom: 5px;
+    display: block;
+}
+
+select {
+    width: 100%;
+    background-color: #4b8061;
+    color: whitesmoke;
+    font-size: 2.5rem;
+    padding: 1%;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+input[type=url] {
+    width: 98%;
+    background-color: #4b8061;
+    color: whitesmoke;
+    font-size: 2.5rem;
+    padding: 1%;
+    margin-bottom: 30px;
+    border: none;
+}
+
+select:focus {
+    background-color: #5ba379;
+}
+
+option {
+    font-size: 2rem;
+    background-color: #5ba379;
+}
+
+#submit {
+    position: relative;
+    bottom: 0;
+    font-size: 2.5rem;
+    background-color: #147a3f;
+    color: whitesmoke;
+    text-align: center;
+    padding: 1%;
+    margin-top: 30px;
+    display: block;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color:#1e8d4c;
+}
+
+::placeholder {
+    color: rgb(170, 170, 170);
+}
+
+.content {
+    width: 85%;
+    margin: auto;
+}
+
+header, footer {
+    background-color: #1e8d4c;
+    text-align: center;
+}
+
+header {
+    padding: 1%;
+    border-bottom: 20px solid #333;
+
+    h1 {
+        font-size: 4rem;
+        cursor: pointer;
+
+        a {
+            color: whitesmoke;
+        }
+
+        span {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+main {
+    padding: 2%;
+
+    #no-ffmpeg h2 {
+        text-align: center;
+    }
+
+    #download_link, #error_message, #wait_message {
+        width: 40%;
+        margin: auto;
+        padding: 0.5%;
+        margin-bottom: 20px;
+        text-align: center;
+        display: block;
+        display: none;
+    }
+
+    #download_link {
+        background-color: #333;
+        color: whitesmoke;
+        padding: 1.5%;
+    }
+
+    #download_link:hover {
+        background-color: rgb(83, 83, 83) ;
+    }
+
+    #wait_message {
+        background-color: rgb(24, 80, 145);
+    }
+
+    #error_message {
+        background: crimson;
+        color: whitesmoke;
+    }
+
+    .directions {
+        text-align: center;
+        font-size: 1.2rem;
+        padding: 1%;
+        line-height: 2;
+    }
+}
+
+footer {
+    font-size: 1.5rem;
+    padding: 2%;
+    border-top: 20px solid #333;
+
+    p {
+        font-weight: bolder;
+        line-height: 1.5;
+    }
+}
+
+.tasks-grid {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 3;
+    flex-wrap: wrap;
+    gap: 2%;
+
+    .box {
+        width: 49%;
+        background: #333;
+        min-height: 350px;
+        margin-bottom: 30px;
+
+        h2 {
+            background: #222;
+            text-align: center;
+            padding: 1%;
+        }
+    }
+}
+
+@media (max-width:1050px) { 
+    .content {
+        width: 95%;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    label {
+        font-size: 3rem;
+    }
+
+    span {
+        font-size: 1.5rem;
+    }
+
+    input[type=text], input[type=url] {
+        width: 96%;
+        font-size: 3rem;
+        padding: 2%;
+    }
+
+    select {
+        width: 100%;
+        font-size: 3rem;
+        padding: 2%;
+        margin-bottom: 60px;
+        cursor: pointer;
+    }
+
+    #submit {
+        font-size: 3rem;
+        padding: 2%;
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    header {
+        h1 {
+            font-size: 2.5rem;
+        }
+    }
+
+    main {
+        padding-top: 3%;
+
+        #download {
+            width: 94%;
+            padding: 2%;
+            font-size: 2.5rem;
+        }
+
+        #download_link, #wait_message, #error_message {
+            width: 96%;
+            font-size: 2rem;
+            padding: 2%;
+        }
+    }
+}
