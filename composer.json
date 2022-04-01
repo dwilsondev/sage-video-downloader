@@ -1,0 +1,17 @@
+{
+    "name": "dwilsondev/sage-video-downloader",
+    "description": "A simple PHP Webapp for downloading videos from across the Web.",
+    "homepage": "https://github.com/dwilsondev/sage-video-downloader",
+    "authors": [
+        {
+            "name": "DeAndre Wilson",
+            "email": "drewilsonx@gmail.com",
+            "homepage": "https://drewilson.dev",
+            "role": "Developer"
+        }
+    ],
+    "version": "1.0.0",
+    "license": [
+        "GPL-3.0-or-later"
+     ]
+}

@@ -127,7 +127,7 @@ header {
     border-bottom: 20px solid #333;
 
     h1 {
-        font-size: 4rem;
+        font-size: 3rem;
         cursor: pointer;
 
         a {
@@ -192,27 +192,6 @@ footer {
     p {
         font-weight: bolder;
         line-height: 1.5;
-    }
-}
-
-.tasks-grid {
-    display: flex;
-    flex-direction: row;
-    flex-grow: 3;
-    flex-wrap: wrap;
-    gap: 2%;
-
-    .box {
-        width: 49%;
-        background: #333;
-        min-height: 350px;
-        margin-bottom: 30px;
-
-        h2 {
-            background: #222;
-            text-align: center;
-            padding: 1%;
-        }
     }
 }
 

@@ -1,3 +1,11 @@
+/*
+if('serviceWorker' in navigator){
+    navigator.serviceWorker.register('./serviceworker.js')
+      .then(reg => console.log('service worker registered'))
+      .catch(err => console.log('service worker not registered', err));
+}
+*/
+
 function downloadVideo() {
     let url = document.querySelector('#url');
     let download_option = document.querySelector("#download_option");
