@@ -41,15 +41,7 @@ If you don't have ffmpeg installed on your system, you can install it locally fo
 If FFmpeg is installed on your system, set the `$ffmpeg_env` variable to an empty string in app/config.php.
 
 ## YouTube DL
-If you prefer to use YouTube DL instead of YouTube DLP, simply modify app/env.php and change the values `$youtube_dlp` to `youtube-dl` like this:
-
-```
-if($youtube_dlp_env == "bin") {
-    $youtube_dlp = realpath("bin") . DIRECTORY_SEPARATOR . "youtube-dl";
-} else {
-    $youtube_dlp = "youtube-dl";
-}
-```
+If you prefer to use YouTube DL instead of YouTube DLP, simply modify app/env.php and change the values `$youtube_dlp` to `youtube-dl`.
 
 Note: SVD has not been officially tested with YouTube DL.
 
